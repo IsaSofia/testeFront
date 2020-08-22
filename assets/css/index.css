@@ -49,7 +49,9 @@ body {
     height: 107px;
     margin-bottom: 33px;
 }
-/* Formulário */
+/* ----------------- /Div direita ----------------- */
+
+/* ----------------- Formulário ------------------- */
 form .form-group {
     margin-bottom: 2.5em;
 }
@@ -71,7 +73,39 @@ form label, .form-control {
     justify-content: center;
     align-items: center;
 }
-/* /Formulário */
+/* ----------------- /Formulário ----------------- */
 
+/* --------------- Media Queries ----------------- */
+@media (min-width: 700px) and (max-width: 1000px) {
+    .descricao {
+        width: 438px;
+    }
+    .esquerda img {
+        height: 260px;
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 1000px) {
+    .home {
+        margin: 80px 100px;
+        flex-direction: row;
+    }
+    .titulo {
+        margin: 45px 0 27px;
+    }
+    .esquerda, .direita {
+        width: 50%;
+    }
+    .esquerda img {
+        height: 260px;
+        margin-bottom: 50px;
+    }
+    .direita {
+        margin-left: 190px;
+    }  
+    .direita img {
+        width: 107px;
+    }
+}
 
-/* ----------------- /Div direita ----------------- */
+/* --------------- /Media Queries ---------------- */
