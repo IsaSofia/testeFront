@@ -1,0 +1,32 @@
+body {
+    background-color: #1c1c1c!important;
+}
+.home {
+    margin: 80px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------- Formatação de texto ------------- */
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    color: #6f68d6;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+.descricao {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 36px;
+}
+/* ------------- /Formatação de texto ------------- */
+
+/* ----------------- Div esquerda ----------------- */
+.esquerda img {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 30px;
+}
+/* ---------------- /Div esquerda ----------------- */
