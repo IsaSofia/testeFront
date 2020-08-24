@@ -20,7 +20,7 @@ $('.tel-mask').mask('(99) 99999-9999', {
   }
 });
 
-// Verifica se senhas são iguais
+// Verifica se senhas são iguais e exibe uma mensagem
 function validarSenha(senha, senhaConfirma)
 {
     var senha1 = document.getElementById(senha).value;
@@ -28,11 +28,11 @@ function validarSenha(senha, senhaConfirma)
 		
     if (senha1 != senha2)
     {
-      	alert('Senhas diferentes!');
+      $(".senhaDiferente").css("display", "block");
     }
 }
 
-// Verificar se o checkBox foi selecionado
+// Verifica se o checkBox foi selecionado
 $('.btn-cadastrar').click(function() {
   if ($('.form-check-input').is(':checked') === false) {
     alert('Marque o checkbox!');

@@ -85,6 +85,11 @@ form label, .form-control {
     justify-content: center;
     align-items: center;
 }
+.senhaDiferente {
+    display: none; 
+    font-family: Roboto-md;
+    color: #fff;
+}
 /* ----------------- /Formulário ----------------- */
 
 /* --------------- Media Queries ----------------- */

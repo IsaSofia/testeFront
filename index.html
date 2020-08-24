@@ -65,10 +65,13 @@
                                 <div class="form-group">
                                     <label for="senhaConfirma">Confirmar senha:</label>
                                     <input type="password" class="form-control" id="senhaConfirma" placeholder="*********">
+                                    <div id="senhaDiferente" class="senhaDiferente">
+                                        <p>As senhas são diferentes!</p>
+                                    </div>
                                 </div>
                                 <div class="form-group form-check">
                                     <input type="checkbox" class="form-check-input" id="selecionado">
-                                    <label class="form-check-label" for="check">Concordo com os termos de uso</label>
+                                    <label class="form-check-label" for="selecionado">Concordo com os termos de uso</label>
                                 </div>
                                 <div class="cadastrar">
                                     <button type="submit" class="btn btn-cadastrar" onclick="validarSenha('senha','senhaConfirma'), verificarCheckBox('selecionado')">Cadastrar</button>
